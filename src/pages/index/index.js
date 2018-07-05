@@ -4,8 +4,10 @@ import '../../assets/fonts/iconfont.css'
 import './index.pug'
 import './index.styl';
 
+import '../header/header'
+import '../footer/footer'
+
 require('jquery')
-require('../header/header')
 
 var youAreUsingPug = true
 
